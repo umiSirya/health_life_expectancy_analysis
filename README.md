@@ -1,8 +1,6 @@
 # Health & Life Expectancy — Global Development Indicators Analysis
 
-**Capstone Project | AnalystLab Africa Data Analytics Program (Future Interns Program, Batch B)**
-
-An end-to-end analysis of global health outcomes using the World Bank's World Development Indicators (WDI) dataset — exploring how life expectancy, mortality, and health expenditure vary across income groups from 2015–2023, and whether spending more actually buys better outcomes.
+This is an end-to-end analysis of global health outcomes using the World Bank's World Development Indicators (WDI) dataset — exploring how life expectancy, mortality, and health expenditure vary across income groups from 2015–2023, and whether spending more actually buys better outcomes.
 
 ---
 
@@ -79,4 +77,3 @@ Do health outcomes converge across income levels over time, and does higher heal
 ## Author
 
 **Naomi Sirya** — [github.com/umiSirya](https://github.com/umiSirya)
-Data Analytics Intern, AnalystLab Africa
