@@ -1,6 +1,6 @@
 # Health & Life Expectancy — Global Development Indicators Analysis
 
-This is an end-to-end analysis of global health outcomes using the World Bank's World Development Indicators (WDI) dataset — exploring how life expectancy, mortality, and health expenditure vary across income groups from 2015–2023, and whether spending more actually buys better outcomes.
+This is an end-to-end analysis of global health outcomes using the World Bank's World Development Indicators (WDI) dataset exploring how life expectancy, mortality, and health expenditure vary across income groups from 2015–2023, and whether spending more actually buys better outcomes.
 
 ---
 
@@ -39,7 +39,7 @@ Do health outcomes converge across income levels over time, and does higher heal
 ## Data Cleaning
 
 - **Fixed a silent load failure** — pandas' default C parser truncated the 189MB source file to 11,598 rows. Reloading with `engine='python'` correctly parsed all 396,970 rows.
-- **Dropped Physicians per 1,000 people** after EDA showed 42% missing data even in the recent decade — too sparse for reliable comparison.
+- **Dropped Physicians per 1,000 people** after EDA showed 42% missing data even in the recent decade : too sparse for reliable comparison.
 - **Joined country metadata** via inner merge, which cleanly excluded regional/income-group aggregates (e.g. "World," "Arab World") from the country-level analysis.
 - **Reshaped** from wide (year columns) to long format for Power BI modeling.
 - **Final cleaned file:** `health_indicators_clean_long.csv` (9,765 rows).
