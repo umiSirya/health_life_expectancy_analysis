@@ -57,7 +57,7 @@ Do health outcomes converge across income levels over time, and does higher heal
 
 ## Dashboard Preview
 
-![Dashboard Screenshot](dashboard_screenshot.png)
+<img width="587" height="334" alt="image" src="https://github.com/user-attachments/assets/8337c10f-abc2-442f-b153-c3f7db6e7271" />
 
 ## Deliverables
 
